@@ -1,0 +1,26 @@
+sudo apt install libbullet-dev
+sudo apt install python3-colcon-common-extensitons  (pip3 install -U colcon-common-extensions)
+sudo apt install python3-flake8
+sudo apt install python3-pip
+sudo apt install python3-pytest-cov
+sudo apt install python3-rosdep
+sudo apt install python3-setuptools
+sudo apt install python3-vcstool
+sudo apt install wget
+
+python3 -m pip install -U argcomplete
+python3 -m pip install -U flake8-blind-except
+python3 -m pip install -U flake8-builtins
+python3 -m pip install -U flake8-class-newline
+python3 -m pip install -U flake8-comprehensions
+python3 -m pip install -U flake8-deprecated
+python3 -m pip install -U flake8-docstrings
+python3 -m pip install -U flake8-import-order
+python3 -m pip install -U flake8-quotes
+python3 -m pip install -U pytest-repeat
+python3 -m pip install -U pytest-rerunfailures
+python3 -m pip install -U pytest
+
+sudo apt install --no-install-recommends -y libasio-dev
+sudo apt install --no-install-recommends -y libtinyxml2-dev
+sudo apt install --no-install-recommends -y libcunit1-dev
