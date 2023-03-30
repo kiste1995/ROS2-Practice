@@ -2,7 +2,7 @@ sudo apt install -y build-essential
 sudo apt install -y cmake
 sudo apt install -y git
 sudo apt install -y libbullet-dev
-sudo apt install -y python3-colcon-common-extensitons  (pip3 install -U colcon-common-extensions)
+sudo apt install -y python3-colcon-common-extensions  (pip3 install -U colcon-common-extensions)
 sudo apt install -y python3-flake8
 sudo apt install -y python3-pip
 sudo apt install -y python3-pytest-cov
