@@ -1,12 +1,15 @@
-sudo apt install libbullet-dev
-sudo apt install python3-colcon-common-extensitons  (pip3 install -U colcon-common-extensions)
-sudo apt install python3-flake8
-sudo apt install python3-pip
-sudo apt install python3-pytest-cov
-sudo apt install python3-rosdep
-sudo apt install python3-setuptools
-sudo apt install python3-vcstool
-sudo apt install wget
+sudo apt install -y build-essential
+sudo apt install -y cmake
+sudo apt install -y git
+sudo apt install -y libbullet-dev
+sudo apt install -y python3-colcon-common-extensitons  (pip3 install -U colcon-common-extensions)
+sudo apt install -y python3-flake8
+sudo apt install -y python3-pip
+sudo apt install -y python3-pytest-cov
+sudo apt install -y python3-rosdep
+sudo apt install -y python3-setuptools
+sudo apt install -y python3-vcstool
+sudo apt install -y wget
 
 python3 -m pip install -U argcomplete
 python3 -m pip install -U flake8-blind-except
